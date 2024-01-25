@@ -28,5 +28,7 @@ console.log(num1*num2)
 console.log(typeof num2)
 
 window.confirm('deseja realmente apagar?')//janelinha de confirmção com opções de 'Cancelar' ou 'OK'
+//ou
+const confirmar = confirm('realmente deseja apagar?') //ele armazena o resultado de true or false na variavel confirmar
 
 
