@@ -26,3 +26,7 @@ const num2 = parseInt('5') //transformar uma string em int ou pode usar Number('
 
 console.log(num1*num2)
 console.log(typeof num2)
+
+window.confirm('deseja realmente apagar?')//janelinha de confirmção com opções de 'Cancelar' ou 'OK'
+
+
