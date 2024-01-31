@@ -27,8 +27,18 @@ const num2 = parseInt('5') //transformar uma string em int ou pode usar Number('
 console.log(num1*num2)
 console.log(typeof num2)
 
-window.confirm('deseja realmente apagar?')//janelinha de confirmção com opções de 'Cancelar' ou 'OK'
+confirm('deseja realmente apagar?')//janelinha de confirmção com opções de 'Cancelar' ou 'OK'
 //ou
 const confirmar = confirm('realmente deseja apagar?') //ele armazena o resultado de true or false na variavel confirmar
+console.log(confirmar)
 
+let num = prompt('Digite um número:') // abre uma janelinha que o usuario tem que preencher um campo
+
+//exercicio
+let num3 = prompt('Digite o primeiro num:')
+let num4 = prompt('Digite outro numero:')
+
+num3 = parseInt(num3)
+num4 = parseInt(num4)
+alert(num3+num4)
 
