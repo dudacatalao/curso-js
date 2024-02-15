@@ -1,10 +1,23 @@
 //IIFE pesquisar sobre
 function meuEscopo (){
-  const form = document.querySelector('.form')
+  const form = document.getElementById('form')
 
-  form.onsubmit = function(evento) {
-    alert("oik")
-  };
+  let contador = 1
+  function recebeForm(evento){
+    evento.preventDefault()
+    const nome = form.document.querySelector('.nome')
+    const sobrenome = form.document.querySelector('.sobrenome')
+    const peso = form.document.querySelector('.peso')
+    const altura = form.document.querySelector('.altura')
+
+    console.log(nome, sobrenome, peso, altura)
+  }
+
+
+  form.addEventListener('submit', recebeForm)
+
 }
 
 meuEscopo()
+
+//n funcionou!!!!!!
